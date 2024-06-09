@@ -2,9 +2,11 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 from Learning import learn
+from Assignment import assignment
 
 pages = {
     "Learn": learn,
+    "Assignments": assignment,
 }
 
 with st.sidebar:

@@ -1,15 +1,15 @@
 import os
 import streamlit as st
 
-def learn():
+def assignment():
     # Directory containing the markdown files
-    directory = 'Lessons'
+    directory = 'Assignments'
     # List all markdown files in the directory
     markdown_files = [f for f in os.listdir(directory) if f.endswith('.md')]
     # Streamlit application
-    st.title('Python Learning')
+    st.title('Assignments')
     # Display the list of markdown files in a sidebar
-    st.header("Select a Lesson")
+    st.header("Select a Assignment")
     selected_file = st.selectbox('', markdown_files)
     # Display the content of the selected markdown file
     if selected_file:
