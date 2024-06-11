@@ -3,8 +3,10 @@ from streamlit_option_menu import option_menu
 
 from Learning import learn
 from Assignment import assignment
+from install import install_python
 
 pages = {
+    "Installation": install_python,
     "Learn": learn,
     "Assignments": assignment,
 }
