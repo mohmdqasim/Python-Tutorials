@@ -6,6 +6,7 @@ def learn():
     directory = 'Lessons'
     # List all markdown files in the directory
     markdown_files = [f for f in os.listdir(directory) if f.endswith('.md')]
+    markdown_files = sort(markdown_files)
     # Streamlit application
     st.title('Python Learning')
     # Display the list of markdown files in a sidebar
