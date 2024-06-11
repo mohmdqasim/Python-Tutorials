@@ -21,22 +21,8 @@ Installing Python on different operating systems (Windows, Mac, and Linux) invol
 
 ### Installing Python on Mac
 
-1. **Using Homebrew (recommended)**
-   - **Install Homebrew** (if not already installed):
-     ```bash
-     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-     ```
-   - **Install Python**:
-     ```bash
-     brew install python
-     ```
-   - **Verify the Installation**:
-     ```bash
-     python3 --version
-     ```
-
-2. **Using the Official Installer**
-   - Go to the official Python website: [python.org](https://www.python.org/).
+1. **Using the Official Installer**
+   - Go to the official Python website: [python.org](https://www.python.org/downloads/macos/).
    - Navigate to the Downloads section and download the macOS installer.
    - Open the downloaded `.pkg` file and follow the instructions to install Python.
    - Verify the installation:
